@@ -1,0 +1,22 @@
+h1{
+    background-color: red;
+    color: white;
+   
+}
+#heading-2{
+    color: blue;
+}
+.heading{
+    color: green;
+}
+p{
+    border: 2px;
+    border-style:groove;
+    border-color:aqua;
+    color:blue;
+    padding: 20px;
+}
+.navbar{
+    background-color: brown;
+    color: white;
+}
