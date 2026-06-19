@@ -10,13 +10,51 @@ h1{
     color: green;
 }
 p{
-    border: 2px;
-    border-style:groove;
-    border-color:aqua;
+   
+  
+   
     color:blue;
     padding: 20px;
 }
 .navbar{
-    background-color: brown;
+    background-color: black;
     color: white;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.navbar a:hover{
+    color: blue;
+    background-color: green;
+}
+body{
+    margin: 0px;
+}
+.card{
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top: 150px;
+   margin-bottom: auto;
+   border-radius: 10px;
+   overflow: hidden;
+}
+.card img{
+    width: 100%;
+}
+.card button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 9px; 
 }
